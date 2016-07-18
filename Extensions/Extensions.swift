@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
     var pigLatin: String {
-        return "Pig"
+        return pigifyString(self)
     }
     
     var points: Int {
@@ -37,5 +37,31 @@ extension String {
             }
         }
         return total
+    }
+    
+    func pigifyString(string: String) -> String {
+        var newString: String = "\(string)ay"
+        return newString
+    }
+}
+
+
+extension Int {
+    var squared: Int {
+        return self * self
+    }
+    
+    var halved: Int {
+        return half(self)
+    }
+    func half(int: Int) -> Int {
+        return int
+    }
+    
+    func isDivisibleBy(int: Int, divisor: Int) -> Bool {
+        if int % divisor == 0 {
+            return true
+        }
+        return false
     }
 }

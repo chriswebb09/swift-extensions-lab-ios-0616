@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				1BA85B271D25C4FC008D42CE /* Extensions */,
-				1BA85B261D25C4FC008D42CE /* Products */,
 				65E26467D810FE9A516A1AC2 /* Pods */,
 				48FB134257A5031188C39D97 /* Frameworks */,
 			);
@@ -105,6 +104,7 @@
 				1BA85B441D25C4FC008D42CE /* ExtensionsUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		1BA85B271D25C4FC008D42CE /* Extensions */ = {
@@ -112,13 +112,14 @@
 			children = (
 				1BA85B281D25C4FC008D42CE /* AppDelegate.swift */,
 				1BA85B2A1D25C4FC008D42CE /* ViewController.swift */,
+				AF36FFE71D3D569D00E0BC38 /* Extensions.swift */,
 				1BA85B2C1D25C4FC008D42CE /* Main.storyboard */,
 				1BA85B2F1D25C4FC008D42CE /* Assets.xcassets */,
 				1BA85B311D25C4FC008D42CE /* LaunchScreen.storyboard */,
 				1BA85B341D25C4FC008D42CE /* Info.plist */,
 				1BA85B3C1D25C4FC008D42CE /* ExtensionsTests */,
 				1BA85B471D25C4FC008D42CE /* ExtensionsUITests */,
-				AF36FFE71D3D569D00E0BC38 /* Extensions.swift */,
+				1BA85B261D25C4FC008D42CE /* Products */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
