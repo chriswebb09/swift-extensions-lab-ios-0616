@@ -17,6 +17,16 @@ extension String {
         return calculatePoint(self)
     }
     
+    var unicornLevel: String {
+        var returnString: String = ""
+        for character in self.characters {
+            if character != " " {
+                returnString = returnString + String("🦄")
+            }
+        }
+        return returnString
+    }
+    
     func whisper() -> String {
         return self.lowercaseString
         
@@ -52,16 +62,19 @@ extension Int {
     }
     
     var halved: Int {
-        return half(self)
+        return half()
     }
-    func half(int: Int) -> Int {
-        return int
+    func half() -> Int {
+        return self / 2
     }
     
-    func isDivisibleBy(int: Int, divisor: Int) -> Bool {
-        if int % divisor == 0 {
+    func isDivisibleBy(divisor: Int) -> Bool {
+        if self % divisor == 0 {
             return true
         }
         return false
+    }
+    
+    func square() {
     }
 }
